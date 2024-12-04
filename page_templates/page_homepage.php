@@ -14,17 +14,10 @@
     <main id="main" class="site-main">
         <article id="post-<?php the_ID(); ?>" <?php post_class('ast-article-single'); ?> itemscope="itemscope" itemtype="https://schema.org/CreativeWork">
 
-            <!-- Replicate astra toggle title -->
             <?php get_template_part('template_parts/astra_toggleable_title'); ?>
 
-            <!-- Display gutenberg blocks with astra styling applied -->
-            <div class="entry-content clear" data-ast-blocks-layout="true" itemprop="text">
-                <?php
-                while (have_posts()) : the_post();
-                    the_content();
-                endwhile;
-                ?>
-            </div>
+            
+            <?php get_template_part('template_parts/astra_gutenberg_blocks') ?>
         </article>
     </main>
 </div>

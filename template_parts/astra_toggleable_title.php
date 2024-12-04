@@ -1,3 +1,4 @@
+<!-- Replicate astra toggle title -->
 <?php
 $astra_display_title_toggle = get_post_meta(get_the_ID(), 'site-post-title', true);
 if ($astra_display_title_toggle !== 'disabled') { ?>
