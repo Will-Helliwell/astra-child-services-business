@@ -6,6 +6,8 @@
  */
 ?>
 
+<?php get_template_part('template_parts/custom_header') ?>
+
 <!-- Get astra header -->
 <?php get_header(); ?>
 
