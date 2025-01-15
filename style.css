@@ -9,6 +9,14 @@ Version: 1.0.0
 Text Domain: astrachildservicesbusiness
 */
 
+:root {
+    /*reusable site colours*/
+    --site-primary-color: #142257;
+    --plain-white: #ffffff;
+    --plain-white-hover: gray;
+    --red-highlight: #ff5e5e;
+}
+
 /* this overrides the astra 'container' settings which only allow full-width in the paid version of the theme */
 .ast-container {
     max-width: 100%;
