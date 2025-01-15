@@ -1,10 +1,6 @@
-/* Import Plus Jakarta Sans font */
-@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600&display=swap");
-
 #custom-site-header {
   background-color: #142257;
   padding: 25px 0;
-  font-family: "Plus Jakarta Sans", sans-serif;
 }
 
 .header-container {
