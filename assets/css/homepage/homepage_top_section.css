@@ -1,0 +1,35 @@
+.tabbed-section {
+    position: relative;
+    height: 300px;
+    background: var(--plain-white);
+  }
+
+  .tabbed-content {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background: var(--site-primary-color);
+    /* Create the tabbed bottom effect using a clip-path */
+    clip-path: polygon(
+      0 0,          /* top left */
+      100% 0,       /* top right */
+      100% 90%,     /* right edge start */
+      70% 90%,      /* right slope start */
+      65% 100%,     /* right bottom */
+      35% 100%,     /* left bottom */
+      30% 90%,      /* left slope start */
+      0 90%         /* left edge end */
+    );
+  }
+
+.rounded-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: var(--site-primary-);
+  border-radius: 8px 8px 0 0;
+  /* Adjust overlay to match new depth */
+  clip-path: polygon(0 0, 100% 0, 100% 85%, 0 85%);
+}

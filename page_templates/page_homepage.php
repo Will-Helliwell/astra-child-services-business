@@ -17,6 +17,8 @@
         <article id="post-<?php the_ID(); ?>" <?php post_class('ast-article-single'); ?> itemscope="itemscope" itemtype="https://schema.org/CreativeWork">
             <?php get_template_part('template_parts/astra_toggleable_title'); ?>
 
+            <?php get_template_part('template_parts/homepage/homepage_top_section') ?>
+
             <?php get_template_part('template_parts/astra_gutenberg_blocks') ?>
         </article>
     </main>
